@@ -72,7 +72,7 @@ if __name__ == "__main__":
     # Prompt user for their word guess
     guess = input("Enter your guess: ").strip().lower()
 
-    # Make the first guess using the API
+    # Make the guess using the API
     response = guess_word(target_word, guess)
 
     # If the response is valid, display feedback
